@@ -1,0 +1,21 @@
+import React from "react";
+import logo from "../assets/img/lws-logo.svg";
+import title from "../assets/img/travel.svg";
+
+const Head = () => {
+  return (
+    <header id="header">
+      <div className="container">
+        <img src={title} alt="logo" className="logo" />
+        <div className="flex items-center">
+          <a className="text-white min-w-[50px] font-medium" href="#">
+            Home
+          </a>
+          <button className="log-btn btn">Login</button>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Head;
